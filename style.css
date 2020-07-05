@@ -4,6 +4,7 @@
 body{
   padding: 0;
   margin: 0;
+  color: #000027;
   font-family: Arial, Helvetica, sans-serif;
 }
 #header-nav{
@@ -25,7 +26,6 @@ body{
 }
 #countdown-section{
   background-image: radial-gradient(#807d7d, #161313);
-  /* background-color: #464545; */
   color: #ffffff;
   padding-top: 25px;
   padding-bottom: 50px;
@@ -38,14 +38,19 @@ body{
 }
 #lower-hearder-nav{
   justify-content: space-between;
-  padding-left: 10%;
-  padding-right: 10%;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-right: auto;
+  margin-left: auto;
 }
 img{
   background-color: gray;
 }
 figcaption{
   padding: 5px;
+}
+header ul{
+  display: none;
 }
 .b-right{
   border-right: 1px solid black;
@@ -86,6 +91,17 @@ figcaption{
   color: #ffffff;
   background-color: inherit;
   border: 1px solid #ffffff;
+  cursor: pointer;
+}
+.btn-register-now:hover{
+  color: #443f3f;
+  background-color: white;
+  border: 1px solid #443f3f;
+}
+.btn-register-now:active{
+  color: #ffffff;
+  background-color: hsla(240, 100%, 51%, 0.589);
+  border: 1px solid white;
 }
 .container, .w-100{
   width: 100%;
@@ -127,6 +143,9 @@ figcaption{
 .t-center{
   text-align: center;
 }
+.j-between{
+  justify-content: space-between;
+}
 .card{
   width: 90%;
   margin: auto;
@@ -151,13 +170,13 @@ header ul{
 }
 header li{
   display: inline;
-  padding: 10px;
+  padding:5px;
   text-transform: capitalize;
 }
 .transparent{
   background-color: transparent;
-  border: 1px solid blue;
-  color: blue;
+  border: 1px solid #0000ff;
+  color: #0000ff;
 }
 .blue, .transparent{
   border-radius: 6px;
@@ -198,8 +217,44 @@ h3{
   text-transform: uppercase;
 }
 footer a{
-  color: gray;
+  color: #808080;
+}
+footer a:hover,footer a:active{
+  color: #f84a4a;
+  font-weight: bold;
+}
+a{
   text-decoration: none;
+}
+#lower-hearder-nav a{
+  padding: 10px 0px;
+  color: #000027;
+}
+#lower-hearder-nav ul a:hover{
+  font-weight: bold;
+  color: #0000ff;
+  border-bottom: 2px solid #0000ff;
+  padding: 10px 5px;
+}
+#lower-hearder-nav ul a:active{
+  font-weight: bold;
+  color: #c00404;
+  border-bottom: 2px solid #0000ff;
+  padding: 10px 5px;
+}
+.blue:hover{
+  background-color: inherit;
+  color: #4f69ff;
+  border: 1px solid #4f69ff;
+}
+.blue:active{
+  background-color: inherit;
+  color: #0000ff;
+  border: 1px solid #0000ff;
+}
+#logo{
+  font-weight: bolder;
+  color:#0000ff;
 }
 @media screen and (min-width:375px){
   .card{
@@ -258,6 +313,10 @@ footer a{
   .md-only{
     display: inline;
   }
-  
+}
+@media screen and (min-width:800px){
+  header ul{
+    display: flex;
+  }
 }
 
