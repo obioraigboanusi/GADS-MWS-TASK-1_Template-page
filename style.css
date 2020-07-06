@@ -43,8 +43,9 @@ body{
   margin-right: auto;
   margin-left: auto;
 }
-img{
+.card img{
   background-color: gray;
+  height: 200px;
 }
 figcaption{
   padding: 5px;
