@@ -45,7 +45,7 @@ body{
 }
 .card img{
   background-color: gray;
-  height: 250px;
+  max-height: 300px;
 }
 figcaption{
   padding: 5px;
@@ -148,7 +148,7 @@ header ul{
   justify-content: space-between;
 }
 .card{
-  width: 90%;
+  width: 100%;
   margin: auto;
 }
 #card-section>div{
