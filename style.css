@@ -5,6 +5,7 @@ body{
   padding: 0;
   margin: 0;
   color: #000027;
+  background-color:#fffef8;
   font-family: Arial, Helvetica, sans-serif;
 }
 #header-nav{
@@ -218,6 +219,9 @@ figure{
 }
 h3{
   text-transform: uppercase;
+}
+h1, h2, h3, p, span{
+   font-family: Arial, Helvetica, sans-serif;
 }
 footer a{
   color: #808080;
