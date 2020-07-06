@@ -203,6 +203,8 @@ figure{
 .card p:first-of-type{
   text-transform: capitalize;
   font-weight: bold;
+  text-align: center;
+  display:block;
 }
 #footer-nav ul{
   list-style-type: none;
